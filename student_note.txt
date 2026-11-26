@@ -1,0 +1,10 @@
+Student: Eren
+
+This repository was modified as part of a cybersecurity
+image forensics lab.
+
+I tested the StegoGuard scanner by adding a suspicious
+keyword and observing how GitHub Actions detected it.
+
+The scanner helps identify suspicious data appended
+to image files and suspicious keywords within file bytes.
