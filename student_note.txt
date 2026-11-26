@@ -1,1 +1,8 @@
 Hi! My name is Eren
+
+I tested both clean and suspicious images using GitHub Actions and observed how the scanner responds. I also modified the scanner by adding a new detection keyword, "confidential", and updated the demo image generator to test my new rule.
+
+Clean -> a clean image will be produced so test will be passed, and if we changed from suspicious to clean again, it will pass as long as its clean.
+Suspicious -> a suspicious image will be produced so test will be failed. In this assignment, we also modified the rule such as adding more words and test the scanner to actually find those words
+
+Fun fact is that in the word that is not allowed, we put small letters of confidential, while when image is created is is using uppercase letter CONFIDENTIAL. Yet it detects and found it as failed so the rule applies even if its not the exact case letters
